@@ -1,7 +1,9 @@
-
+$(document).ready(() => {
  var goal = Math.floor((Math.random() * 120) + 1);
 
  var counter = 0;
+var win = counter === goal;
+var fail = counter >= goal;
 
 $("#showOnScreen").text(goal);
 
@@ -24,16 +26,43 @@ $("#eyeball").on("click", function(){
       alert("New score: " + counter); 
     });
    
+   
+
+
     $("#stuffs").text(counter);
-  function checkCounter() {
-    if (counter === goal) {
+ 
+
+    function checkCounter() {
+    if (win) {
        
         alert("you win"); 
-    }   else if  (counter >= goal) {
+    }   else if  (fail) {
        
         alert(":(");
   };
 };
+
+
+
+
+
+
+
+});
+
+function IlikeHeadaches(){
+document.getElementById("test").innerHTML=""
+document.getElementById("test").innerHTML='<iframe> + 'width="560" height="315" src="https://www.youtube.com/embed/P5aTGhdzLxQ" 
+frameborder="0" allow="autoplay; encrypted-media" allowfullscreen' + </iframe>'
+
+
+
+}
+
+
+
+{/* <iframe width="560" height="315" src="https://www.youtube.com/embed/P5aTGhdzLxQ" 
+frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> */}
 
 
 

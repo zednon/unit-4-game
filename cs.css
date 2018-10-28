@@ -1,0 +1,32 @@
+body {
+    background-color: darkblue
+    
+    }
+    
+    #mainBody {
+        float: center;
+        background-color: white;
+        margin: 10px 150px 10px 150px;
+        padding: 50px 100px;
+        border: solid 20px red;
+    }
+    
+    .choice {
+        margin: 10px;
+        color: white;
+        border: 3px red solid;
+        background-color: darkblue;
+        padding: 10px
+    }
+    .choice:hover {
+        transform: scale(1.5); 
+    }
+
+
+    .answer {
+        float: center;
+        background-color: white;
+        margin: 10px 300px 10px 300px;
+        padding: 20px 100px;
+        border: solid 20px red;
+    }
